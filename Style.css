@@ -171,8 +171,6 @@ section .title::after{
     background:        
    url("https://www.dropbox.com/scl/fi/ajazyis3o3k3zops5gsk4/250520-D-IF881-1002.jpg?rlkey=6zskdw3qahq9kuxc4d1g4lvc6&st=0v5jz0kx&raw=1") no-repeat center;
     
-    
-    
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -381,7 +379,7 @@ section .title::after{
     width: 95%;
 }
 
-/* teams section styling */
+/* Church section styling */
 .teams .title::after{
     content: "Personally used";
 }
@@ -685,56 +683,6 @@ footer span a:hover{
         font-size: 23px;
         line-height: 38px;
     }
-}
-
-/*Badge than side links*/
-.badge{
-    background-color:#1565cd;
-    height:125px;
-    border-radius:50%;
-    margin-top:20%;
-    margin-left:30%;
-    overflow: hidden;
-    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-    animation:Rotate 3s ease-in-out,levitate 2s linear infinite 3s;
-}
-@keyframes Rotate{
-    0%{
-        box-shadow:0px 0px 0px #fff;
-        margin-left:-30%;
-        transform:rotate(0deg);
-    }
-    75%{
-        box-shadow:0px 0px 2px 2px #ccc;
-        margin-left:50%;
-        transform:rotate(460deg);
-    }
-    100%{
-        margin-left:30%;
-        transform:rotate(360deg);
-    }
-}
-@keyframes levitate{
-    0% {
-        box-shadow: 0 5px 15px rgba(0,0,0,0.6);
-        transform: translateY(0px);
-    }
-    50% {
-       box-shadow: 0 25px 15px rgba(0,0,0,0.2);
-        transform: translateY(-20px);
-    }
-    100% {
-        box-shadow: 0 5px 15px rgba(0,0,0,0.6);
-        transform: translateY(0px);
-    }
-}
-
-
-
-
-
-
-    
 }
 
 *
