@@ -8,6 +8,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -169,7 +170,7 @@ section .title::after{
       height: auto;
       display: block; /* removes bottom whitespace */
     background:        
-   url("	https://www.dropbox.com/scl/fi/qrhvjxvfywsiws67032z7/Dezi-Violin-Studio-Background.jpg?rlkey=b02uif4ifp1tet24w9k1pm6uo&st=ie4c18h9&raw=1") no-repeat center;
+   url("https://www.dropbox.com/scl/fi/qrhvjxvfywsiws67032z7/Dezi-Violin-Studio-Background.jpg?rlkey=b02uif4ifp1tet24w9k1pm6uo&st=ie4c18h9&raw=1") no-repeat center;
     
     height: 100vh;
     color: #fff;
