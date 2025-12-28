@@ -37,39 +37,17 @@ $(document).ready(() => {
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Tier 2 Imaging Technician Lead", "IT Expert", "Tier 2 Help Desk", "IT Administrator", "Freelancer", "Information System Engineer", "Inventory Management Specialist", "AI Prompt Engineer", "Junior Full Stack Developer", "Software Engineer"],
+        strings: ["Cantor", "Musician", "Violinist"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Tier 2 Imaging Technician", "IT Expert", "Tier 2 Help Desk", "IT Administrator", "Freelancer"],
+        strings: ["Cantor", "Musician", "Violinist"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
-    });
-
-    // owl carousel script
-    $('.carousel').owlCarousel({
-        margin: 20,
-        loop: true,
-        autoplayTimeOut: 2000,
-        autoplayHoverPause: true,
-        responsive: {
-            0: {
-                items: 1,
-                nav: false
-            },
-            600: {
-                items: 2,
-                nav: false
-            },
-            1000: {
-                items: 3,
-                nav: false
-            }
-        }
     });
 });
 

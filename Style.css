@@ -691,55 +691,6 @@ footer span a:hover{
 padding:0px;
 }
 
-/* Side links styling */
-.divcont1
-{
-    position:absolute;
-    width:200px;
-    top:70px;
-    right: -173px;
-    background-color:black;
-    position: fixed;
-}
-
-.divcont2
-{
-    position:absolute;
-    top:125px;
-    width:200px;
-    right: -173px;
-    background-color:black;
-     position: fixed;
-}
-
-.divcont3
-{
-    position:absolute;
-    top:175px;
-    width:200px;
-    right: -173px;
-    background-color:black;
-     position: fixed;
-}
-
-
-.divcont1 p
-{
-color:white;
-padding: 25px 15px 10px 10px;
-letter-spacing:4px;
-
-
-}
-
-.divcont1:hover
-{
-    width:200px;
-    position:absolute;
-    right: 0px;
-    color:black;  
-}
-
 /* BAD: Causes flickering */
 .container {
   transform: translateY(0px);
