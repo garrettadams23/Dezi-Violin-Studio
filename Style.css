@@ -257,7 +257,7 @@ section .title::after {
     ABOUT SECTION
     =========================== */
 .about .title::after {
-     content: "who i am";
+     content: "who I am";
 }
 
 .about .about-content .left {
@@ -368,7 +368,7 @@ section .title::after {
     SKILLS SECTION
     =========================== */
 .skills .title::after {
-     content: "of what I have preformed";
+     content: "Violin preformance";
 }
 
 .skills .skills-content .column {
