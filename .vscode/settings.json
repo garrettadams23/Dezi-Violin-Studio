@@ -1,3 +1,4 @@
 {
-    "chatgpt.openOnStartup": true
+    "chatgpt.openOnStartup": true,
+    "chat.extensionUnification.enabled": true
 }
