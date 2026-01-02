@@ -46,7 +46,7 @@ section {
      margin: auto;
 }
 
-.about, .services, .samples, .teams, .contact, footer {
+.about, .services, .samples, .cantor, .contact, footer {
      font-family: 'Poppins', sans-serif;
 }
 
@@ -310,18 +310,18 @@ section .title::after {
 /* ===========================
     SERVICES SECTION
     =========================== */
-.services, .teams {
+.services, .cantor {
      color: #fff;
      background: #111;
 }
 
 .services .title::before,
-.teams .title::before {
+.cantor .title::before {
      background: #fff;
 }
 
 .services .title::after,
-.teams .title::after {
+.Cantor .title::after {
      background: #111;
      content: "What I provide";
 }
@@ -436,13 +436,13 @@ section .title::after {
 }
 
 /* ===========================
-    TEAMS SECTION
+    CANTOR SECTION
     =========================== */
-.teams .title::after {
+.cantor .title::after {
      content: "Personally used";
 }
 
-.teams .carousel .card {
+.cantor .carousel .card {
      background: #222;
      border-radius: 6px;
      padding: 25px 35px;
@@ -451,11 +451,11 @@ section .title::after {
      transition: all 0.3s ease;
 }
 
-.teams .carousel .card:hover {
+.cantor .carousel .card:hover {
      background: crimson;
 }
 
-.teams .carousel .card .box {
+.cantor .carousel .card .box {
      display: flex;
      flex-direction: column;
      align-items: center;
@@ -463,17 +463,17 @@ section .title::after {
      transition: all 0.3s ease;
 }
 
-.teams .carousel .card:hover .box {
+.cantor .carousel .card:hover .box {
      transform: scale(1.05);
 }
 
-.teams .carousel .card .text {
+.cantor .carousel .card .text {
      font-size: 25px;
      font-weight: 500;
      margin: 10px 0 7px 0;
 }
 
-.teams .carousel .card img {
+.cantor .carousel .card img {
      height: 150px;
      width: 150px;
      object-fit: cover;
@@ -482,7 +482,7 @@ section .title::after {
      transition: all 0.3s ease;
 }
 
-.teams .carousel .card:hover img {
+.cantor .carousel .card:hover img {
      border-color: #fff;
 }
 
