@@ -46,13 +46,13 @@ section {
      margin: auto;
 }
 
-.about, .services, .skills, .teams, .contact, footer {
+.about, .services, .samples, .teams, .contact, footer {
      font-family: 'Poppins', sans-serif;
 }
 
 .about .about-content,
 .services .serv-content,
-.skills .skills-content,
+.samples .samples-content,
 .contact .contact-content {
      display: flex;
      flex-wrap: wrap;
@@ -365,27 +365,27 @@ section .title::after {
 }
 
 /* ===========================
-    SKILLS SECTION
+    SAMPLES SECTION
     =========================== */
-.skills .title::after {
+.samples .title::after {
      content: "Violin preformance";
 }
 
-.skills .skills-content .column {
+.samples .samples-content .column {
      width: calc(50% - 30px);
 }
 
-.skills .skills-content .left .text {
+.samples .samples-content .left .text {
      font-size: 20px;
      font-weight: 600;
      margin-bottom: 10px;
 }
 
-.skills .skills-content .left p {
+.samples .samples-content .left p {
      text-align: justify;
 }
 
-.skills .skills-content .left a {
+.samples .samples-content .left a {
      display: inline-block;
      background: crimson;
      color: #fff;
@@ -398,61 +398,41 @@ section .title::after {
      transition: all 0.3s ease;
 }
 
-.skills .skills-content .left a:hover {
+.samples .samples-content .left a:hover {
      color: crimson;
      background: none;
 }
 
-.skills .skills-content .right .bars {
+.samples .samples-content .right .bars {
      margin-bottom: 15px;
 }
 
-.skills .skills-content .right .info {
+.samples .samples-content .right .info {
      display: flex;
      margin-bottom: 5px;
      align-items: center;
      justify-content: space-between;
 }
 
-.skills .skills-content .right span {
+.samples .samples-content .right span {
      font-weight: 500;
      font-size: 18px;
 }
 
-.skills .skills-content .right .line {
+.samples .samples-content .right .line {
      height: 5px;
      width: 100%;
      background: lightgrey;
      position: relative;
 }
 
-.skills .skills-content .right .line::before {
+.samples .samples-content .right .line::before {
      content: "";
      position: absolute;
      height: 100%;
      left: 0;
      top: 0;
      background: crimson;
-}
-
-.skills-content .right .Windows::before {
-     width: 90%;
-}
-
-.skills-content .right .Linux::before {
-     width: 60%;
-}
-
-.skills-content .right .Mobile::before {
-     width: 80%;
-}
-
-.skills-content .right .Software::before {
-     width: 70%;
-}
-
-.skills-content .right .Hardware::before {
-     width: 95%;
 }
 
 /* ===========================
@@ -763,7 +743,7 @@ footer span a:hover {
           margin-bottom: 20px;
      }
 
-     .skills .skills-content .column,
+     .samples .samples-content .column,
      .contact .contact-content .column {
           width: 100%;
           margin-bottom: 35px;
@@ -802,7 +782,7 @@ footer span a:hover {
      }
 
      .about .about-content .right .text,
-     .skills .skills-content .left .text {
+     .samples .samples-content .left .text {
           font-size: 19px;
      }
 
