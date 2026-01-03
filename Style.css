@@ -440,6 +440,7 @@ section .title::after {
     =========================== */
 .cantor .title::after {
      content: "Personally used";
+     background: #111;
 }
 
 .cantor .carousel .card {
